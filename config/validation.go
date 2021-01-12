@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/libcompose/utils"
 	"github.com/xeipuuv/gojsonschema"
+	"github.com/zhgqiang/libcompose/utils"
 )
 
 func serviceNameFromErrorField(field string) string {

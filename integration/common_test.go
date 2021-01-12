@@ -13,10 +13,10 @@ import (
 
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
-	lclient "github.com/docker/libcompose/docker/client"
-	"github.com/docker/libcompose/docker/container"
-	"github.com/docker/libcompose/labels"
 	"github.com/sirupsen/logrus"
+	lclient "github.com/zhgqiang/libcompose/docker/client"
+	"github.com/zhgqiang/libcompose/docker/container"
+	"github.com/zhgqiang/libcompose/labels"
 
 	. "gopkg.in/check.v1"
 )

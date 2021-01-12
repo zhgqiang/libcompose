@@ -10,11 +10,11 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/docker/libcompose/project"
-	"github.com/docker/libcompose/project/options"
-	"github.com/docker/libcompose/version"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
+	"github.com/zhgqiang/libcompose/project"
+	"github.com/zhgqiang/libcompose/project/options"
+	"github.com/zhgqiang/libcompose/version"
 )
 
 // ProjectAction is an adapter to allow the use of ordinary functions as libcompose actions.

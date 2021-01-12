@@ -5,16 +5,16 @@ import (
 
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/libcompose/config"
-	"github.com/docker/libcompose/docker/auth"
-	"github.com/docker/libcompose/docker/client"
-	"github.com/docker/libcompose/docker/ctx"
-	"github.com/docker/libcompose/docker/network"
-	"github.com/docker/libcompose/docker/service"
-	"github.com/docker/libcompose/docker/volume"
-	"github.com/docker/libcompose/labels"
-	"github.com/docker/libcompose/project"
 	"github.com/sirupsen/logrus"
+	"github.com/zhgqiang/libcompose/config"
+	"github.com/zhgqiang/libcompose/docker/auth"
+	"github.com/zhgqiang/libcompose/docker/client"
+	"github.com/zhgqiang/libcompose/docker/ctx"
+	"github.com/zhgqiang/libcompose/docker/network"
+	"github.com/zhgqiang/libcompose/docker/service"
+	"github.com/zhgqiang/libcompose/docker/volume"
+	"github.com/zhgqiang/libcompose/labels"
+	"github.com/zhgqiang/libcompose/project"
 )
 
 // NewProject creates a Project with the specified context.

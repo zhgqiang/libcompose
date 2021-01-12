@@ -4,9 +4,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/docker/libcompose/cli/app"
-	"github.com/docker/libcompose/project"
 	"github.com/urfave/cli"
+	"github.com/zhgqiang/libcompose/cli/app"
+	"github.com/zhgqiang/libcompose/project"
 )
 
 // Populate updates the specified project context based on command line arguments and subcommands.

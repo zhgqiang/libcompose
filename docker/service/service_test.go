@@ -3,8 +3,8 @@ package service
 import (
 	"testing"
 
-	"github.com/docker/libcompose/config"
 	"github.com/stretchr/testify/assert"
+	"github.com/zhgqiang/libcompose/config"
 )
 
 func TestSpecifiesHostPort(t *testing.T) {

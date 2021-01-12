@@ -3,8 +3,8 @@ package project
 import (
 	"golang.org/x/net/context"
 
-	"github.com/docker/libcompose/project/events"
-	"github.com/docker/libcompose/project/options"
+	"github.com/zhgqiang/libcompose/project/events"
+	"github.com/zhgqiang/libcompose/project/options"
 )
 
 // Up creates and starts the specified services (kinda like docker run).

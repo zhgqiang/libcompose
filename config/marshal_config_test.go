@@ -3,8 +3,8 @@ package config
 import (
 	"testing"
 
-	yamlTypes "github.com/docker/libcompose/yaml"
 	"github.com/stretchr/testify/assert"
+	yamlTypes "github.com/zhgqiang/libcompose/yaml"
 	"gopkg.in/yaml.v2"
 )
 

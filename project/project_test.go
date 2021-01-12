@@ -8,10 +8,10 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/docker/libcompose/config"
-	"github.com/docker/libcompose/project/options"
-	"github.com/docker/libcompose/yaml"
 	"github.com/stretchr/testify/assert"
+	"github.com/zhgqiang/libcompose/config"
+	"github.com/zhgqiang/libcompose/project/options"
+	"github.com/zhgqiang/libcompose/yaml"
 )
 
 type TestServiceFactory struct {

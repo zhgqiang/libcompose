@@ -1,11 +1,11 @@
 package app
 
 import (
-	"github.com/docker/libcompose/cli/command"
-	"github.com/docker/libcompose/docker/client"
-	"github.com/docker/libcompose/docker/ctx"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
+	"github.com/zhgqiang/libcompose/cli/command"
+	"github.com/zhgqiang/libcompose/docker/client"
+	"github.com/zhgqiang/libcompose/docker/ctx"
 )
 
 // DockerClientFlags defines the flags that are specific to the docker client,

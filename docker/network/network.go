@@ -10,8 +10,8 @@ import (
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/network"
 	"github.com/docker/docker/client"
-	"github.com/docker/libcompose/config"
-	"github.com/docker/libcompose/yaml"
+	"github.com/zhgqiang/libcompose/config"
+	"github.com/zhgqiang/libcompose/yaml"
 )
 
 // Network holds attributes and method for a network definition in compose

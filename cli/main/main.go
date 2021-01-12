@@ -4,11 +4,11 @@ import (
 	"os"
 	"path"
 
-	cliApp "github.com/docker/libcompose/cli/app"
-	"github.com/docker/libcompose/cli/command"
-	dockerApp "github.com/docker/libcompose/cli/docker/app"
-	"github.com/docker/libcompose/version"
 	"github.com/urfave/cli"
+	cliApp "github.com/zhgqiang/libcompose/cli/app"
+	"github.com/zhgqiang/libcompose/cli/command"
+	dockerApp "github.com/zhgqiang/libcompose/cli/docker/app"
+	"github.com/zhgqiang/libcompose/version"
 )
 
 func main() {
@@ -46,7 +46,7 @@ Options:
 	app.Usage = "Command line interface for libcompose."
 	app.Version = version.VERSION + " (" + version.GITCOMMIT + ")"
 	app.Author = "Docker Compose Contributors"
-	app.Email = "https://github.com/docker/libcompose"
+	app.Email = "https://github.com/zhgqiang/libcompose"
 	app.Before = cliApp.BeforeApp
 	app.Flags = append(command.CommonFlags(), dockerApp.DockerClientFlags()...)
 	app.Commands = []cli.Command{
